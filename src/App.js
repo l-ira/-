@@ -5,21 +5,21 @@ import React, { useState } from "react";
 const INITIAL_COSTS = [
   {
     id: 'c1',
-    date: new Date(2021, 4, 12),
+    date: new Date(2024, 4, 12),
     description: "Холодильник",
     amount: 1000
 
   },
   {
     id: 'c2',
-    date: new Date(2020, 4, 10),
+    date: new Date(2024, 4, 10),
     description: "Ноутбук",
     amount: 500
 
   },
   {
     id: 'c3',
-    date: new Date(2021, 4, 1),
+    date: new Date(2024, 3, 1),
     description: "Телефон",
     amount: 300
 
@@ -36,6 +36,7 @@ function App() {
       return [cost, ...prevCosts]
     })
   }
+
 
   return (
     <div>

@@ -20,16 +20,18 @@ const CostForm = (props) => {
     const submitHandler = (event) => {
         event.preventDefault()
 
-        const costData = {
+        let costData = {
             description: inputName,
             amount: inputAmount,
             date: new Date(inputDate),
         }
 
+
         props.onSaveCostData(costData)
         setInputName('')
         setInputAmount('')
         setInputDate('')
+
     }
 
     return <form onSubmit={submitHandler}>

@@ -13,6 +13,9 @@ function NewCost(props) {
 
         props.onAddCost(costData)
         setIsFormVisible(false)
+
+
+        localStorage.setItem(costData.id, JSON.stringify(costData))
     }
 
     const inputCostDataHandler = () => {
