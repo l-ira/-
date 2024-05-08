@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CoinKeeper_App_prototype/static/css/main.01357169.css",
+    "main.js": "/CoinKeeper_App_prototype/static/js/main.1d8e3599.js",
+    "index.html": "/CoinKeeper_App_prototype/index.html",
+    "main.01357169.css.map": "/CoinKeeper_App_prototype/static/css/main.01357169.css.map",
+    "main.1d8e3599.js.map": "/CoinKeeper_App_prototype/static/js/main.1d8e3599.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01357169.css",
+    "static/js/main.1d8e3599.js"
+  ]
+}
